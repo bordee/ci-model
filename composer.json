@@ -1,0 +1,21 @@
+{
+    "description": "Model layer library based on CodeIgniter's DB, QueryBuilder and Cache classes ",
+    "name": "bordee/ci-model",
+    "type": "library",
+    "license": "",
+    "require": {
+        "php": ">=5.2.4",
+        "bordee/php-utils": "master@dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bordee/php-utils.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CiModel\\": "src/CiModel"
+        }
+    }
+}
